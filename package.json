@@ -1,33 +1,15 @@
 {
   "name": "Jobscheduling",
   "version": "1.0.0",
-  "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
-  "license": "UNLICENSED",
+  "description": "Node.js Email Scheduler for SAP BTP",
   "private": true,
   "dependencies": {
-    "@cap-js/hana": "^1",
-    "@sap/cds": "^8",
-    "@sap/xssec": "^4",
     "express": "^4",
-    "node-cron": "^4.1.0",
-    "nodemailer": "^7.0.3"
+    "nodemailer": "^7.0.3",
+    "node-cron": "^4.1.0"
   },
-  "devDependencies": {
-    "@cap-js/cds-types": "^0.10.0",
-    "@cap-js/sqlite": "^1",
-    "@sap/cds-dk": "^8"
-  },
+  
   "scripts": {
-    "start": "cds-serve"
-  },
-  "cds": {
-    "requires": {
-      "auth": "xsuaa",
-      "html5-runtime": true
-    },
-    "sql": {
-      "native_hana_associations": false
-    }
+    "start": "node server.js"
   }
 }

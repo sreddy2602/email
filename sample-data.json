@@ -1,6 +1,6 @@
 {
-    "to": "sharvanireddy02@gmail.com",
-    "subject": "Sample SAP BTP Email",
-    "text": "Hello, this is a sample email sent from SAP BTP email scheduler app.",
-    "html": "<b>Hello, this is a sample email sent from SAP BTP email scheduler app.</b>"
-  }
+  "to": "sharvanireddy02@gmail.com",
+  "subject": "Sample SAP BTP Email",
+  "text": "Hello, this is a sample email sent from SAP BTP email scheduler app.",
+  "html": "<b>Hello, this is a sample email sent from SAP BTP email scheduler app.</b>"
+}
